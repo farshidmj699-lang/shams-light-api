@@ -1,0 +1,21 @@
+surah-shams-deepseed-main/
+├── LICENSE
+├── README.md
+├── data/
+│   ├── shams_mapping.json
+│   ├── shams_graph.gexf
+│   ├── surah_shams_edges.csv
+│   └── surah_shams_nodes.csv
+├── deploy/
+│   ├── Dockerfile
+│   ├── app.py
+│   └── requirements.txt
+├── docs/
+│   ├── RELEASE_CHECKLIST.md
+│   └── SAFETY_AND_ETHICS.md
+├── src/
+│   ├── build_graph.py
+│   └── export_gephi.py
+├── tests/
+│   └── test_app.py
+└── .gitignore
