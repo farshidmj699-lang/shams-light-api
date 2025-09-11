@@ -1,12 +1,7 @@
-# Shams Light API
-
-This project maps the rays of Shams into structured symbolic data and exposes them via a simple FastAPI service.
-
-## Run locally
-
-```bash
-uvicorn deploy.app:app --reload --port 8080
-```
-
-## Endpoints
-- `GET /rays` → returns the Shams rays mapping
+git clone https://github.com/farshidmj699-lang/shams-light-api.git
+cd shams-light-api
+unzip shams-light-api.zip
+rm shams-light-api.zip
+git add .
+git commit -m "Extract project files"
+git push origin main
